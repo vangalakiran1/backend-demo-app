@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (request, response) => {
-  response.send("get data, this is main branch data");
+  response.send("get data, this is branch1 data");
 });
 
 app.get("/about", (request, response) => {
